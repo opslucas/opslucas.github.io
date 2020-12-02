@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+        
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Yellowtail&display=swap" rel="stylesheet">
+    <style>
+    * {
+    box-sizing: border-box;
+    }
+
+    body {
+        font-family: Nunito;
+        padding: 10px;
+        background:linear-gradient(to right, #2a0845, #6441A5);
+        color: aliceblue;
+        text-align: justify;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    p.main{
+        font-size: 90%;
+    }
+
+    /* Header / Título */
+    .header {
+        padding: 30px;
+        text-align: center;
+        color: white
+    }
+
+    .header h1 {
+        font-size: 50px;
+        color: white
+    }
+
+    /* Style topnav */
+    .topnav {
+        overflow: hidden;
+        background-image: radial-gradient( circle farthest-corner at -0.4% 112%,  rgba(102,51,204,1) 0%, rgba(244,111,111,1) 92.7% );
+        border-radius: 10px;
+        padding: 6px 25px 10px 6px;
+    }
+
+    /* Style topnav links */
+    .topnav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        text-transform: uppercase;  
+    }
+
+    /* Mudar a cor ao clicar (on hover) */
+    .topnav a:hover {
+    color: #31014c;
+    }
+
+    
+    /* Left column */
+    .leftcolumn {   
+        float: left;
+        width: 65%;
+    }
+
+    /* Right column */
+    .rightcolumn {
+        color: rgba(0, 0, 0, 0.76);
+        float: left;
+        width: 25%;
+        background-color: rgba(255, 255, 255, 0.863);
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 60px;
+        margin-left: 100px;
+        border-radius: 8px;
+    }
+
+    /* imagem */
+    .img_1 {
+        width: 100%;
+        border-radius: 13px;
+    }
+
+    .img_2 {
+        width: 100%;
+    }
+
+    .tela_ini{
+        width: 80%;
+        border-radius: 12px;
+    }
+    .tutorial_1{
+        width: 80%;
+        padding-left: 5px;
+        border-radius: 13px;
+    }
+    .tutorial_2 {
+        width: 80%;
+        padding-left: 5px;
+        border-radius: 13px;
+    }
+    .tutorial_3{
+        width: 77%;
+        padding-left: 5px;
+        border-radius: 16px;
+    }
+    .preciso {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    /* Add a card effect for articles */
+    .card {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+
+    .container-a {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .container-b {
+        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    /*colunas*/
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 18px 33px 10px 33px;
+        text-align: center;
+        background-image: radial-gradient( circle farthest-corner at -0.4% 112%,  rgba(102,51,204,1) 0%, rgba(244,111,111,1) 92.7% );
+        margin-top: 55px;
+        border-radius: 10px;
+    }
+
+    .footer a {
+            text-decoration: none;
+            color: #eb4d96;
+            padding: 4px 14px 4px 14px;
+            background-color: #f9f9f9d7;
+            border-radius: 3px;
+            font-size: 13px;
+    }
+
+    .footer a:hover {
+    color: #E74B2A;
+    }
+    
+    .by{
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.904);
+    }
+
+
+    #email {
+        text-align: center;
+        color: rgba(177, 2, 89, 0.788);
+        margin-left: 16px;
+    }
+
+    .referencia {
+        margin-top: 14px;
+        margin-left: 20px;
+        margin-bottom: -7px;
+        font-size: 18px;
+    }
+
+    .cite{
+        margin-top: -4px;
+        margin-left: 11px;
+        font-size: 14px;
+        margin-bottom: -4px;
+        color: #f75da5;
+
+    }
+
+    .cite a:hover{
+        color: #E74B2A;
+        text-decoration: none;
+    }
+
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {   
+            width: 100%;
+            padding: 0;
+        }
+    }
+
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+        .topnav a {
+            float: none;
+            width: 100%;
+        }
+    }
+    </style>
+    <title>Adobe XD</title>
+</head>
+<body>
+
+    <div class="header">
+        <p>MÉTODOS E TÉCNICAS DE ENGENHARIA DE SOFTWARE</p>
+        <p>2º / 2020</p>
+        <h1>Adobe XD</h1>
+    </div>
+
+    <div class="topnav">
+            <a href="#sobre">Sobre</a>
+            <a href="#ux/ui">UX / UI</a>
+            <a href="#alunos">Alunos</a>
+            <a href="#professor">Professor</a>
+            <a href="#contato" style="float:right">Contato</a>
+        </div>
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div id="topo" class="card">
+                <h2 id="sobre">O PROGRAMA</h2>
+                <p class="preciso">Adobe XD (Adobe Experience Design) é uma ferramenta de edição de gráficos que funciona para criar Web e interfaces de sites de aplicativos. Com o Adobe XD, você pode criar protótipos interativos que simulam a navegação real em seu projeto, o que significa que você pode apresentar seus clientes a um trabalho muito mais tangível do fluxo de navegação do usuário. Isso facilitará a identificação dos aspectos que precisam ser corrigidos antes da fase de desenvolvimento e programação.</p>
+            <div>  <img src="img/tutorial.png" class="tela_ini" style="height:330;"> 
+            
+            </div id="sobre">
+            
+                <p class="preciso">Assim que inicializamos o software, nos deparamos com a tela de boas-vindas, onde selecionamos o tipo de projeto, ou o modelo que vamos trabalhar. Por padrão, ele já disponibiliza algumas dimensões 
+                    (Mobile, Ipad e Web), e para quem deseja trabalhar com tamanhos avulsos, ele também conta com a opção “Personalizado”. A organização das ferramentas, layout do programa, os tutoriais que o software 
+                    oferece, torna o Adobe XD simples de usar até mesmo pra quem não tem familiaridade com protótipos e design.
+                </p>
+        </div>
+
+        <div class="card">
+            <h2 class="preciso">TRABALHANDO COM O ADOBE XD</h2>
+            <div> 
+                <img src="img/tutorial_3.png" class="tutorial_2" >
+                
+             </div>
+            <p class="preciso">A criatividade é um quesito primordial para criar um site e/ou aplicativo. O Adobe XD (Experience Design), é uma ferramenta que tem como uma de suas principais finalidades auxiliar na prototipação de aplicações. 
+                Com ela é possível criar modelos e matrizes para plataformas diferentes, tanto mobile quanto web, com uma linguagem e interface bastante intuitiva. 
+                É um programa repleto de funcionalidades e recursos que dão agilidade aos processos, permitindo ao usuário interagir com o desenvolvimento de um projeto de uma maneira prática e otimizada. 
+                </p>
+            <img src="img/tutorial_ul.png" class="tutorial_1">
+            <p class="preciso">As funcionalidades são similares às dos demais produtos da Adobe (Photoshop, Illustrator, entre outros), porém, suas ferramentas são ainda mais simplificadas. 
+                A organização das ferramentas, layout do programa, os tutoriais que o software oferece, torna o Adobe XD simples de usar até mesmo pra quem não tem familiaridade com protótipos e design.
+                A aparência intuitiva dos comandos ajuda na funcionalidade do Adobe XD para configurar grid, tamanho e espaçamento de colunas e importar imagens de outros aplicativos em poucos cliques.</p>
+        </div>
+
+        <div id="ux/ui" class="card">
+            <h2>UX / UI DESIGN</h2>
+            <div>
+            <p class="preciso">A sigla UX significa User Experience (Experiência do Usuário), trata-se da experiência e como o cliente interage com o seu produto ou serviço. Já a sigla UI significa User Interface (Interface do Usuário) e trata-se de um mecanismo que guia o usuário pelas interfaces visuais, ou seja, sua aplicação durante o tempo em que ele a utiliza.</p>
+    
+            <img src="img/prot_2.png" class="tutorial_3">
+            <p class="preciso"> O UX designer é o profissional responsável pela estética de uma plataforma digital, com o objetivo de proporcionar uma melhor experiência ao usuário, baseada em seu comportamento, seja por meio da usabilidade, utilidade ou conveniência oferecidas na interação com o produto. O UI designer é responsável por criar o design criativo, por exemplo, de um aplicativo e fornecer a melhor experiência ao usuário, por meio de todo o planejamento feito em UX. E no meio disso é utilizado a ferramenta Adobe XD durante o desenvolvimento. Legal, não acha?</p>
+            </div>
+        </div>
+
+        <div id="conclusao" class="card">
+            <h2>CONCLUINDO</h2>
+            <div>
+            <p class="preciso">Com isso, nota-se que um dos principais aspectos desse programa é a interatividade, já que é possível testar todos os seus projetos e viver a experiência do usuário assim como os clientes irão vê-lo. Tudo o que pode se fazer nesse programa é capaz de ser testado. Com certeza o Adobe Experience Design é uma ferramenta de extrema utilidade na vida de muitos e que não pode se perder de vista.</p>
+            </div>
+        </div>
+
+        <div id="alunos" class="container-a">
+            <h2>Alunos</h2>
+            <h5>Diego Calmon de Oliveira - 5306757</h5>
+            <h5>Guilherme Brito da Silva - 5306723 </h5>
+            <h5>Lucas Silva Nascimento - 5306751</h5>
+            <h5>Rafael de Assis Nascimento - 5306722</h5>
+            <h5>Waler Daniel Neves Pereira - 5306598</h5>
+        </div>
+
+        <div id="professor" class="container-b">
+            <h2>Professor</h2>
+            <h5>Alexandre Neves Louzada</h5>
+            
+        </div>
+        <h2 class="referencia">Referências:</h2>
+            <br> <h5 class="cite"> <a class="cite" href="https://www.lojadelayouts.com/blog/adobe-xd/">"Adobe XD - O que é e para que serve"</a> </h5> 
+            <br> <h5 class="cite"> <a class="cite" href="https://webdesign.tutsplus.com/pt/tutorials/how-to-create-a-ui-prototype-using-adobe-xd--cms-26585">"Como Criar um Protótipo de UI Usando Adobe XD"</a></h5>
+            <br> <h5 class="cite"> <a class="cite" href=https://www.mjvinnovation.com/pt-br/blog/prototipagem-o-guia-definitivo">"Prototipagem: O guia definitivo para colocar sua ideia na rua"</a> </h5>
+             
+    </div>
+
+    <div class="rightcolumn">
+        <div class="card">
+            <h3>FIGMA</h3>
+            <div>
+                 <img src="img/figma.png" class="img_1" style="height:100%;">
+            
+            </div>
+            <p class="main">De forma semelhante ao Adobe XD, o Figma apresenta uma abordagem colaborativa ao design. Podendo também ser utilizado para realizações de protótipos no desenvolvimento de projetos. Ele oferece suporte a colaboração em tempo real. Os membros da equipe podem se comunicar e gerenciar suas próprias tarefas do projeto. </p>
+        </div>
+        <div class="card">
+            <h3>PROTOTIPAGEM</h3>
+            <div> 
+                <img src="img/prot.png" class="img_2"> 
+            </div>
+            <p class="main">Prototipar é tangibilizar uma ideia, a passagem do abstrato para o físico de forma a representar a realidade mesmo que simplificada e proporcionar validações. Consiste na produção de uma versão inicial reduzida e de baixo custo de um produto, por meio dos chamados protótipos.</p>
+           
+        </div>
+        <div id="contato" class="card">
+            <h3>ENTRE EM CONTATO</h3>
+            <a id="email" href="mailto:diegooliveira3@unigranrio.br">e-mail: diegooliveira3@unigranrio.br</a>
+            <br>
+            <a id="email" href="mailto:lucasnascimento@unigranrio.com">e-mail: lucasnascimento@unigranrio.com</a>
+            <br>
+            <a id="email" href="mailto:rafaeln@unigranrio.br">e-mail: rafaeln@unigranrio.br</a>
+            <br>
+            <a id="email" href="mailto:walerpereira@unigranrio.br">e-mail: walerpereira@unigranrio.br</a> 
+        </div>
+    </div>
+</div>
+
+    <div class="footer">
+        <a id="botao" href="#topo">Voltar</a>
+        <h4 class="by">DESENVOLVIDO POR LUCAS NASCIMENTO</h4>
+    </div>
+
+</body>
+</html>
